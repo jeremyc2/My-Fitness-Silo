@@ -15,7 +15,7 @@ class MyFitnessSilo extends StatelessWidget {
       title: 'My Fitness Silo',
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
-        primaryColor: kPrimaryColor,
+        primaryColor: Colors.blue,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
