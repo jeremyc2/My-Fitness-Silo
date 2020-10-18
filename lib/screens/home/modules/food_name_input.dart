@@ -15,14 +15,15 @@ class _FoodNameInputState extends State<FoodNameInput> {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: TextFormField(
+        textAlign: TextAlign.center,
         decoration: InputDecoration(
-            border: OutlineInputBorder(
-              borderRadius: new BorderRadius.circular(55.0),
-            ),
-            fillColor: Colors.grey.shade300,
-            filled: true,
-            labelText: 'Food Name',
-            contentPadding: EdgeInsets.only(left: 30)),
+          border: OutlineInputBorder(
+            borderRadius: new BorderRadius.circular(55.0),
+          ),
+          fillColor: Colors.grey.shade300,
+          filled: true,
+          labelText: 'Food Name',
+        ),
         validator: (value) {
           if (value.isEmpty) {
             return 'Please enter some text';

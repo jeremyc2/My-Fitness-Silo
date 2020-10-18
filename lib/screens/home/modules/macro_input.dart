@@ -16,11 +16,11 @@ class _MacroInputState extends State<MacroInput> {
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: TextFormField(
         decoration: InputDecoration(
-            border: OutlineInputBorder(),
-            fillColor: Colors.grey.shade300,
-            filled: true,
-            labelText: widget.name,
-            contentPadding: EdgeInsets.only(left: 30)),
+          border: OutlineInputBorder(),
+          fillColor: Colors.grey.shade300,
+          filled: true,
+          labelText: widget.name,
+        ),
         validator: (value) {
           if (value.isEmpty) {
             return 'Please enter some text';
