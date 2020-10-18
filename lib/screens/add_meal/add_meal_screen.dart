@@ -8,7 +8,7 @@ class AddMealScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'My Fitness Silo',
+          'Add A Meal',
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.w900,
