@@ -16,7 +16,6 @@ class _FoodNameInputState extends State<FoodNameInput> {
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: TextFormField(
         autofocus: true,
-        textAlign: TextAlign.center,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(horizontal: 30),
           border: OutlineInputBorder(
