@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_fitness_silo/screens/home/modules/centered_text_field.dart';
 
 class FoodNameInput extends StatefulWidget {
   const FoodNameInput({
@@ -18,6 +19,7 @@ class _FoodNameInputState extends State<FoodNameInput> {
         autofocus: true,
         textAlign: TextAlign.center,
         decoration: InputDecoration(
+          contentPadding: EdgeInsets.symmetric(horizontal: 30),
           border: OutlineInputBorder(
             borderRadius: new BorderRadius.circular(55.0),
           ),
