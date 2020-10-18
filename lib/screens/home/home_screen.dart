@@ -67,7 +67,13 @@ class _AddMealFormState extends State<AddMealForm> {
             child: Column(
               children: <Widget>[
                 FoodNameInput(),
-                MacroInput('Calories'),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    MacroInput('Calories'),
+                    MacroInput('Protien'),
+                  ],
+                ),
                 SubmitButton(formKey: _formKey),
               ],
             ),

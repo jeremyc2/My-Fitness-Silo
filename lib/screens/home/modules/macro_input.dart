@@ -17,6 +17,8 @@ class _MacroInputState extends State<MacroInput> {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 8.0),
         child: TextFormField(
+          maxLength: 4,
+          keyboardType: TextInputType.number,
           decoration: InputDecoration(
             border: OutlineInputBorder(),
             fillColor: Colors.grey.shade300,
