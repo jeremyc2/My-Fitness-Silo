@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_fitness_silo/screens/home/modules/centered_text_field.dart';
 
 class FoodNameInput extends StatefulWidget {
   const FoodNameInput({
